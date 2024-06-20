@@ -115,7 +115,7 @@
 	<section class="grid_template" id="featured-work">
 		<!-- section title -->
 		<!-- <hr class="w-screen border-gray"> -->
-		<h4 class="md:col-start-3 col-span-4 text-darkGray mb-4 col-start-2">Featured Work</h4>
+		<h4 class="md:col-start-3 col-span-4 text-darkGray mb-4 col-start-1">Featured Work</h4>
 		<!-- project block -->
 		{#each $allProjects as project}
 			{#if project.metadata.featured === true && project.metadata.hidden === false}
@@ -155,7 +155,7 @@
 	<section class="grid_template md:mt-12" id="work">
 		<!-- section title -->
 		<!-- <hr class="w-screen border-gray"> -->
-		<h4 class="md:col-start-3 col-span-4 text-darkGray mb-4 col-start-2">Moooooore Work</h4>
+		<h4 class="md:col-start-3 col-span-4 text-darkGray mb-4 col-start-1">More Work</h4>
 		<!-- project block -->
 		<div class="md:col-start-3 md:col-span-8 col-start-1 col-span-6">
 			<div class="grid grid-cols-2 md:grid-cols-2 gap-4">
@@ -206,7 +206,7 @@
 				<sup class="text-gray">Colophon</sup>
 				This website is hand-coded and maintained by myself with the help of KD. Built with SvelteKit. Type is set in Fluxish by OSP Foundry.
 			<br><br>
-			Last updated on June 12, 2024 with love. Thank you for visiting!
+			Last updated on June 20, 2024 with love. Thank you for visiting!
 			</p>
 		</div>
 	</section>
