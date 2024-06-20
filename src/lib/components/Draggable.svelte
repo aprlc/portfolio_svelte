@@ -1,6 +1,6 @@
 <script>
-	export let left = 100;
-	export let top = 100;
+	export let left = 50;
+	export let bottom = 50;
 	
 	let moving = false;
 	
@@ -43,7 +43,7 @@
 	}
 </style>
 
-<section on:mousedown={onMouseDown} style="left: {left}px; top: {top}px;" class="draggable z-[500]">
+<section on:mousedown={onMouseDown} style="left: {left}px; bottom: {bottom}px;" class="draggable z-[500]">
 	<slot></slot>
 </section>
 
