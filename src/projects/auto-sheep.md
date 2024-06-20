@@ -11,4 +11,4 @@ featured: true
 
 A brand language and digital home for Autonomous Sheep, a London-based art and technology collective. Launched in time for their inaugural exhibition in central London.
 
-<span class="text-xs">*Website development with <a href="https://koundinya.website/">Koundinya Dhulipalla</a></span>
+<span class="text-xs">*Website development with <a href="https://koundinya.website/" class="underline">Koundinya Dhulipalla</a></span>

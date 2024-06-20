@@ -13,4 +13,4 @@ _onoffon radio_ is a handmade, micro-radio not bounded by location, audience, or
 
 This project is an inquiry into making and maintaining infrastructure outside of industrial/ commercial realms. It includes a includes a manual to build your own online radio using free, libre open source software hosted on a Raspberry Pi (a small computer). What happens when we can build our own means of communing online?
 
-<span class="text-xs">*Image by Carlo Zambon</span>
+<span class="text-xs">*Photography by <a href="https://carlozambon.com/" class="underline">Carlo Zambon</a></span>

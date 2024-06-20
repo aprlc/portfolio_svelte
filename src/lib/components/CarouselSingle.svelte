@@ -7,7 +7,7 @@
 
 
 <Carousel {slides}>
-    <img src={slide.src.replace(/^\/static/, '')} alt={slide.alt} slot="slide" let:slide class="object-cover w-full md:h-auto">
+    <img src={slide.src.replace(/^\/static/, '')} alt={slide.alt} slot="slide" let:slide class="object-cover w-full md:min-h-[auto]">
     <div
         slot="dots"
         let:dots

@@ -11,7 +11,7 @@
 	function onMouseMove(e) {
 		if (moving) {
 			left += e.movementX;
-			top += e.movementY;
+			bottom -= e.movementY;
 
 			// Get the viewport dimensions
 			const viewportWidth = window.innerWidth;
@@ -24,9 +24,9 @@
 
 			// Constrain within the viewport
 			if (left < 0) left = 0;
-			if (top < 0) top = 0;
+			if (bottom < 0) top = 0;
 			if (left + elementWidth > viewportWidth) left = viewportWidth - elementWidth;
-			if (top + elementHeight > viewportHeight) top = viewportHeight - elementHeight;
+			if (bottom + elementHeight > viewportHeight) bottom = viewportHeight - elementHeight;
 		}
 	}
 	
