@@ -99,8 +99,7 @@
 				<p class="mb-0 ">Find her elsewhere. Available for projects!</p>
 				<a href="mailto:hi@april.wiki" class="hover:link-hover text-sm">hi@april.wiki,&nbsp;</a>
 				<a href="https://read.cv/aprlc" class="hover:link-hover text-sm">read.cv,&nbsp;</a>
-				<a href="https://www.are.na/april-c" class="hover:link-hover text-sm"> are.na,&nbsp;</a>
-				<a href="https://read.cv/aprlc" class="hover:link-hover text-sm">insta</a>
+				<a href="https://www.are.na/april-c" class="hover:link-hover text-sm"> are.na</a>
 			</div>
 		</div>
 		<!-- <div class="md:col-start-10 md:col-span-2 col-start-4 col-span-3">

@@ -17,6 +17,7 @@
         class="gap-1 flex self-end z-10 mt-2"
         {...a11y}
 		>
+        {#if slides.length > 1}
 		{#each dots as { a11y }, i}
             <button
                 {...a11y}
@@ -24,6 +25,7 @@
                 class={'rounded-full cursor-pointer transition-all w-1.5 h-1.5  aria-[selected="true"]:bg-darkGray bg-gray'}
             />
 		{/each}
+        {/if}
 	</div>
     <!-- <div
         slot="pagination"
