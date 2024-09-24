@@ -1,5 +1,5 @@
-<!-- HOME LAYOUT -->
 <script>
+	import {inject} from '@vercel/analytics'
 	// Getting the site config
 	import { config } from '../site.config';
 	// Importing the global css
@@ -7,7 +7,7 @@
 	import { page } from '$app/stores';
 	import { afterUpdate } from 'svelte';
 
-	import Nav from "$lib/components/Nav.svelte";
+	import Nav from '$lib/components/Nav.svelte';
 
 	let isHomePage = false; // Default value
 	let isAboutPage = false;
@@ -17,8 +17,9 @@
 		isHomePage = $page.url.pathname === '/';
 		isAboutPage = $page.url.pathname === '/about';
 	});
-
 </script>
+
+<!-- HOME LAYOUT -->
 
 <svelte:head>
 	<title>{config.title}</title>
@@ -45,9 +46,5 @@
 </div> -->
 
 <div id="container" class="h-screen max-w-[1440px] mt-4 self-center m-auto overscroll-x-none">
-	<slot></slot>
+	<slot />
 </div>
-
-
-
-
