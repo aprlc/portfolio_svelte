@@ -98,7 +98,6 @@
 			<div>
 				<p class="mb-0 ">Find her elsewhere. Available for projects!</p>
 				<a href="mailto:hi@april.wiki" class="hover:link-hover text-sm">hi@april.wiki,&nbsp;</a>
-				<a href="https://read.cv/aprlc" class="hover:link-hover text-sm">read.cv,&nbsp;</a>
 				<a href="https://www.are.na/april-c" class="hover:link-hover text-sm"> are.na</a>
 			</div>
 		</div>
@@ -113,14 +112,14 @@
 	<!-- FEATURED PROJECTS -->
 	<section class="grid_template" id="featured-work">
 		<!-- section title -->
-		 <div class="md:col-start-3 md:col-span-8 col-start-1 col-span-6">
+		 <!-- <div class="md:col-start-3 md:col-span-8 col-start-1 col-span-6 ">
 			<div class="flex flex-row gap-1">
 				<svg class="w-[12px] h-[12px] fill-[#bba3ff]" xmlns="http://www.w3.org/2000/svg">
 					<circle cx="6" cy="6" r="3" />
 				</svg>
 				<h4 class="md:col-start-3 col-span-4 text-[#bba3ff] mb-4 col-start-1">Featured Work</h4>
 			</div>
-		 </div>
+		 </div> -->
 
 		<!-- project block -->
 		{#each $allProjects as project}
@@ -158,16 +157,16 @@
 	</section>
 
 	<!-- WORK -->
-	<section class="grid_template md:mt-12" id="work">
+	<section class="grid_template md:mt-12 display:none" id="work">
 		<!-- section title -->
-		<div class="md:col-start-3 md:col-span-8 col-start-1 col-span-6">
+		<!-- <div class="md:col-start-3 md:col-span-8 col-start-1 col-span-6">
 			<div class="flex flex-row gap-1">
 				<svg class="w-[12px] h-[12px] fill-[#a3e3ff]" xmlns="http://www.w3.org/2000/svg">
 					<circle cx="6" cy="6" r="3" />
 				</svg>
 				<h4 class="md:col-start-3 col-span-4 text-[#a3e3ff] mb-4 col-start-1">Project Clippings</h4>
 			</div>
-		 </div>
+		 </div> -->
 		<!-- project block -->
 		<div class="md:col-start-3 md:col-span-8 col-start-1 col-span-6">
 			<div class="grid grid-cols-2 md:grid-cols-2 gap-4">
@@ -212,14 +211,14 @@
 	</section>
 
 	<!-- COLOPHON -->
-	<section class="grid_template">
+	<!-- <section class="grid_template">
 		<div class="md:col-start-10 md:col-span-2 col-start-4 col-span-3 mt-12">
 			<p class="text-xs leading-3">
 				<sup class="text-gray">Colophon</sup>
 				This website is hand-coded and maintained by myself with the help of KD. Built with SvelteKit. Type is set in Fluxish by OSP Foundry.
 			<br><br>
-			Last updated on June 20, 2024 with love. Thank you for visiting!
+			Last updated on Feb 10, 2024 with love. Thank you for visiting!
 			</p>
 		</div>
-	</section>
+	</section> -->
 </div>

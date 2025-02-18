@@ -3,7 +3,7 @@ title: onoffon radio
 year: 2023
 type: Code, Design, Research
 slug: radio
-hidden: false
+hidden: true
 date: 0202242
 link: https://www.radioo.space
 featured: true

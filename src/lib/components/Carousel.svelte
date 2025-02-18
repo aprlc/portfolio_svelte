@@ -14,11 +14,11 @@
 <Carousel {slides} layout={{
 			xs: 1,
 			sm: 1,
-			md: 2,
+			md: 1,
 			lg: 2,
-			xl: 3
-		}} gap={{default: 2}}>
-        <img src={slide.src.replace(/^\/static/, '')} alt={slide.alt} slot="slide" let:slide class="object-cover w-full md:h-[500px] h-[300px]">
+			xl: 2
+		}} gap={{default: 0}}>
+        <img src={slide.src.replace(/^\/static/, '')} alt={slide.alt} slot="slide" let:slide class="object-contain w-full h-[500]">
 
 	<div class="absolute top-0 right-0 h-full w-1/10 bg-red-500 z-[100]"></div>
     <div

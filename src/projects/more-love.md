@@ -3,7 +3,7 @@ title: MORE LOVE
 year: 2022
 type: Code, Design
 slug: more-love
-hidden: false
+hidden: true
 date: 102
 link: https://morelove.netlify.app
 featured: false

@@ -27,7 +27,7 @@
 </svelte:head>
 
 <!-- DOTS -->
-<!-- <div class="fixed flex top-1 left-0 p-2 flex-row w-full justify-between z-[10]">
+<div class="fixed flex top-1 left-0 p-2 flex-row w-full justify-between z-[10]">
 	<div class="relative w-[20px] h-[20px]">
 		<svg class="w-[20px] h-[20px] fill-darkGray" xmlns="http://www.w3.org/2000/svg">
 			<circle cx="10" cy="10" r="5" />
@@ -43,8 +43,8 @@
 			<circle cx="10" cy="10" r="5" />
 		</svg>
 	</div>
-</div> -->
+</div>
 
-<div id="container" class="h-screen max-w-[1440px] mt-4 self-center m-auto overscroll-x-none">
+<div id="container" class="h-screen max-w-[1440px] mt-12 self-center m-auto overscroll-x-none">
 	<slot />
 </div>

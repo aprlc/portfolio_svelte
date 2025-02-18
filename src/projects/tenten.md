@@ -3,7 +3,7 @@ title: tenten, Website
 year: 2021
 type: Design, Development
 slug: tenten
-hidden: false
+hidden: true
 date: 100
 link: 
 featured: false

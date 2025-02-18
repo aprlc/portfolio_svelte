@@ -3,7 +3,7 @@ title: Autonomous Sheep
 year: 2024
 type: Code, Design
 slug: auto-sheep
-hidden: false
+hidden: true
 date: 0204241
 link: https://autonomous-sheep.com
 featured: true
